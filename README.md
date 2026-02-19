@@ -1,5 +1,7 @@
 # gong-mcp-server
 
+[![npm version](https://img.shields.io/npm/v/gong-mcp-server.svg)](https://www.npmjs.com/package/gong-mcp-server)
+
 An [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that provides tools for interacting with the [Gong API](https://gong.app.gong.io/settings/api/documentation). Enables AI assistants to access Gong call data, user information, activity stats, CRM integrations, and more.
 
 ## Available Tools
