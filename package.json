@@ -1,0 +1,42 @@
+{
+  "name": "gong-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the Gong API - provides tools for calls, users, activity, CRM, and more",
+  "main": "dist/gong-mcp-server.js",
+  "bin": {
+    "gong-mcp-server": "dist/gong-mcp-server.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/gong-mcp-server.js",
+    "dev": "tsx src/gong-mcp-server.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "gong",
+    "model-context-protocol",
+    "ai",
+    "llm",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "axios": "^1.12.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.2"
+  }
+}

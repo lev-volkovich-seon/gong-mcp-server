@@ -1,0 +1,12 @@
+src/
+logs/
+.claude/
+.git/
+.gitignore
+.DS_Store
+.env
+.env.*
+tsconfig.json
+gong_api_complete.yaml
+*.log
+node_modules/

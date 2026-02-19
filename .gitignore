@@ -1,0 +1,9 @@
+node_modules/
+dist/
+logs/
+*.log
+.DS_Store
+.env
+.env.*
+.claude/
+gong_api_complete.yaml
